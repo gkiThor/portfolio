@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guillaume S - Développeur full-stack</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="./js/main.js"></script>
+  </head>
+  <body id="top" class="font-poppins bg-gray-100">
+    <header>
+      <!-- Navigation -->
+      
+      <nav class="bg-white z-50 fixed top-0 w-full shadow">
+        <div id="main-nav" class="max-w-3xl mx-auto p-4 flex items-center justify-between flex-wrap md:p-5">
+          <a
+            href="#top"
+            aria-label="Accueil du portfolio"
+            class="text-lg lg:text-xl"
+          >
+          Guillaume
+          <span class="font-bold">S<span class="text-rose-600">.</span></span>
+          </a>
+          <button  aria-controls="main-navlist"
+          aria-expanded="false"
+          id="menu-toggler"
+          class="cursor-pointer w-7 md:hidden">
+            <img width="28" height="28" src="images/hero/menu.svg" alt="Menu" />
+          </button>
+          <ul id="main-navlist" class="hidden flex-col text-center w-full pt-4 text-gray-800 md:flex md:flex-row md:w-auto md:space-x-6 md:justify-center">
+            <li><a href="#accueil" class="text-sm uppercase font-semibold hover:text-rose-600">Accueil</a></li>
+            <li><a href="#moi" class="text-sm uppercase font-semibold hover:text-rose-600">Moi</a></li>
+            <li><a href="#competences" class="text-sm uppercase font-semibold hover:text-rose-600">Compétences</a></li>
+            <li><a href="#cv" class="text-sm uppercase font-semibold hover:text-rose-600">Expériences</a></li>
+            <li><a href="#projets" class="text-sm uppercase font-semibold hover:text-rose-600">Projets</a></li>
+            <li><a href="#contact" class="text-sm uppercase font-semibold hover:text-rose-600">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+
+       <!-- Accueil ... -->
+       <section id="accueil" class="text-center py-20 px-4 md:py-32">
+        <h1 class="text-4xl font-bold md:text-6xl">Accueil</h1>
+        <p class="mt-4 text-gray-600 md:text-lg">
+          Bonjour et bienvenue sur mon portfolio. 
+        </p>
+
+        <p class="mt-4 text-gray-600 md:text-lg">
+          Je m'appelle Guillaume Soulichanh, développeur full stack, et je suis actuellement étudiant en Bachelor CSI (Conception de Systèmes d’Information) à l'ESN81.
+        </p>
+
+        <p class="mt-4 text-gray-600 md:text-lg">
+          Sur ce portfolio en ligne, vous pourrez naviguer pour découvrir mes projets, mes expériences en entreprise ainsi que mes compétences acquises au fil de mes différentes formations.
+        </p>
+
+        <p class="mt-4 text-gray-600 md:text-lg">
+          J'ai plus de deux ans d'expérience en développement logiciel. Je maîtrise divers langages (C++, C#, PHP, Java, JavaScript) et frameworks (Symfony 5, React, Qt5). 
+        </p> 
+
+        <p class="mt-4 text-gray-600 md:text-lg">
+          Actuellement, je suis à la recherche d’un stage de 13 semaines, afin de mettre mes compétences techniques et mon esprit collaboratif au service de projets innovants.
+        </p>
+        <p class="mt-4 text-gray-600 md:text-lg">
+          Je suis disponible à partir de juin. N'hésitez pas à me contacter pour discuter de vos projets ou en savoir plus sur mon profil !
+        </p>
+        
+        
+      </section>
+
+
+        <!-- moi  -->
+        <section id="moi" class="text-center py-20 px-4 md:py-32">
+          <h1 class="text-4xl font-bold md:text-6xl">A propos de moi</h1>
+          <p class="mt-4 text-gray-600 md:text-lg">
+            Curieux, adaptable et toujours partant pour apprendre de nouvelles technos, je suis un développeur full stack qui aime autant le front que le back (oui, même les erreurs 500). 
+          </p>
+          <p class="mt-4 text-gray-600 md:text-lg">
+            Après plusieurs formations orientées développement et systèmes d'information, j’ai consolidé mes compétences à travers diverses expériences en entreprise, où j’ai pu travailler sur des projets concrets et variés. 
+          </p>
+          <p class="mt-4 text-gray-600 md:text-lg">
+            Mon stack principal tourne autour de JavaScript, PHP, C#,VB.NET, avec une affection particulière pour React et Symfony.
+          </p>
+          <p class="mt-4 text-gray-600 md:text-lg">
+            Côté soft skills, on dit souvent de moi que je suis à l’écoute, que j’ai un bon esprit d’équipe, et que je garde mon calme même quand le serveur décide de redémarrer tout seul à 17h un vendredi. 
+          </p>
+          <p class="mt-4 text-gray-600 md:text-lg">
+            J’apprécie les environnements collaboratifs où la communication est fluide, et je suis à l’aise avec les méthodes agiles, les outils de gestion de projet et la documentation technique (oui, je lis et j’écris les docs !).
+          </p>
+          <p class="mt-4 text-gray-600 md:text-lg">
+            En dehors du clavier, j'ai pratiqué le handball depuis plus de 12 ans, désormais je suis en mode loisir. J’aime aussi le cinéma, les jeux vidéo, les jeux de société, et je ne dis jamais non à une bonne partie de rigolade autour d’un jeu de rôle ou d’un deck bien pensé.
+          </p>
+          <a href="#projets" class="mt-6 inline-block bg-rose-600 text-white py-3 px-6 rounded-md hover:bg-rose-700">Voir mes projets</a>
+          
+        </section>
+
+        <!-- Competences -->
+
+        <section
+        id="competences"
+        class="bg-gray-900 px-4 pt-14 pb-20 md:pt-20 md:pb-24"
+      >
+        
+        <h1
+          class="text-white font-lora relative z-0 text-2xl w-fit mx-auto mb-7 sm:text-4xl sm:mb-10 md:text-5xl md:mb-12 after:absolute after:w-full after:h-2 after:bottom-0 after:left-0 after:-z-10 after:bg-main-light sm:after:h-5 sm:after:-bottom-2"
+        >
+          Mes Compétences
+        </h1>
+        
+        <!-- Lignes 01 Competences Back -->
+        <div
+          class="grid max-w-xs mx-auto grid-cols-2 sm:grid-cols-3 sm:max-w-md md:py-8 lg:flex lg:justify-center lg:max-w-none lg:items-center"
+        >
+         
+          <div
+            class="text-white flex justify-center items-center flex-col p-4 lg:mx-6"
+          >
+            <img
+              width="45"
+              height="56"
+              class="mb-4 lg:h-12 xl:h-14"
+              src="./images/skills/php.png"
+              alt="logo de Php"
+            />
+
+            <p class="font-lora text-xl md:text-2xl">PHP</p>
+            
+          </div>
+
+          <div
+            class="text-white flex justify-center items-center flex-col p-4 lg:mx-6"
+          >
+            <img
+              width="56"
+              height="56"
+              class="mb-4 lg:h-12 xl:h-14"
+              src="./images/skills/Symfony.png"
+              alt="logo de Symfony"
+            />
+
+            <p class="font-lora text-xl md:text-2xl">Symfony</p>
+            
+          </div>
+
+          <div
+            class="text-white flex justify-center items-center flex-col p-4 lg:mx-6"
+          >
+            <img
+              width="50"
+              height="57"
+              class="mb-4 lg:h-12 xl:h-14"
+              src="./images/skills/Node.png"
+              alt="logo de Node"
+            />
+
+            <p class="font-lora text-xl md:text-2xl">Node</p>
+            
+          </div>
+
+          <div
+            class="text-white flex justify-center items-center flex-col p-4 lg:mx-6"
+          >
+            <img
+              width="56"
+              height="56"
+              class="mb-4 lg:h-12 xl:h-14"
+              src="./images/skills/express.png"
+              alt="logo de express"
+            />
+
+            <p class="font-lora text-xl md:text-2xl">Express</p>
+            
+          </div>
+
+          <div
+            class="text-white flex justify-center items-center flex-col p-4 lg:mx-6"
+          >
+            <img
+              width="75"
+              height="57"
+              class="mb-4 lg:h-12 xl:h-14"
+              src="./images/skills/java.png"
+              alt="logo de Java"
+            />
+
+            <p class="font-lora text-xl md:text-2xl">JAVA</p>
+            
+          </div>
+
+          <div
+            class="text-white flex justify-center items-center flex-col p-2 lg:mx-6"
+          >
+            <img
+              width="56"
+              height="56"
+              class="mb-4 lg:h-12 xl:h-14"
+              src="./images/skills/dotnet.png"
+              alt="logo de dotnet"
+            />
+
+            <p class="font-lora text-xl md:text-2xl">C#, VB</p>
+            
+          </div>
+        </div>
+
+        <!-- Lignes 01 Competences Back -->
+        <div
+          class="grid max-w-xs mx-auto grid-cols-2 sm:grid-cols-3 sm:max-w-md md:py-8 lg:flex lg:justify-center lg:max-w-none lg:items-center"
+        >
+          <div
+            class="text-white flex justify-center items-center flex-col p-2 lg:mx-6"
+          >
+            <img
+              width="56"
+              height="56"
+              class="mb-4 lg:h-12 xl:h-14"
+              src="./images/skills/JS.png"
+              alt="logo de Javascript"
+            />
+
+            <p class="font-lora text-xl md:text-2xl">Javascript</p>
+            
+          </div>
+          <div
+            class="text-white flex justify-center items-center flex-col p-4 lg:mx-6"
+          >
+            <img
+              width="63"
+              height="57"
+              class="mb-4 lg:h-12 xl:h-14"
+              src="./images/skills/React.png"
+              alt="logo de React"
+            />
+
+            <p class="font-lora text-xl md:text-2xl">React</p>
+            
+          </div>  
+          
+          <div
+          class="text-white flex justify-center items-center flex-col p-2 lg:mx-6"
+          >
+            <img
+              width="56"
+              height="56"
+              class="mb-4 lg:h-12 xl:h-14"
+              src="./images/skills/tailwind.png"
+              alt="logo de tailwind"
+            />
+
+            <p class="font-lora text-xl md:text-2xl">Tailwind</p>
+            
+          </div>
+
+          <div
+          class="text-white flex justify-center items-center flex-col p-2 lg:mx-6"
+          >
+            <img
+              width="56"
+              height="56"
+              class="mb-4 lg:h-12 xl:h-14"
+              src="./images/skills/bootstrap.png"
+              alt="logo de bootstrap"
+            />
+
+            <p class="font-lora text-xl md:text-2xl">Bootstrap</p>
+            
+          </div>
+
+          <div
+            class="text-white flex justify-center items-center flex-col p-2 lg:mx-6"
+          >
+            <img
+              width="56"
+              height="56"
+              class="mb-4 lg:h-12 xl:h-14"
+              src="./images/skills/flutter.png"
+              alt="logo de flutter"
+            />
+
+            <p class="font-lora text-xl md:text-2xl">Flutter</p>
+            
+          </div>
+        </div>
+
+        <!-- Lignes 02 Competences Front -->
+        <div
+          class="grid max-w-xs mx-auto grid-cols-2 sm:grid-cols-3 sm:max-w-md md:py-8 lg:flex lg:justify-center lg:max-w-none lg:items-center"
+        >
+          <div
+            class="text-white flex justify-center items-center flex-col p-2 lg:mx-6"
+          >
+            <img
+              width="56"
+              height="56"
+              class="mb-4 lg:h-12 xl:h-14"
+              src="./images/skills/github.png"
+              alt="logo de github"
+            />
+
+            <p class="font-lora text-xl md:text-2xl">Github</p>
+        
+          </div>
+
+          <div
+            class="text-white flex justify-center items-center flex-col p-2 lg:mx-6"
+          >
+            <img
+              width="56"
+              height="56"
+              class="mb-4 lg:h-12 xl:h-14"
+              src="./images/skills/mysql.png"
+              alt="logo de mysql"
+            />
+
+            <p class="font-lora text-xl md:text-2xl">MySQL</p>
+            
+          </div>
+
+          <div
+            class="text-white flex justify-center items-center flex-col p-2 lg:mx-6"
+          >
+            <img
+              width="56"
+              height="56"
+              class="mb-4 lg:h-12 xl:h-14"
+              src="./images/skills/uml.png"
+              alt="logo de uml"
+            />
+
+            <p class="font-lora text-xl md:text-2xl">UML</p>
+            
+          </div>
+
+          <div
+            class="text-white flex justify-center items-center flex-col p-2 lg:mx-6"
+          >
+            <img
+              width="56"
+              height="56"
+              class="mb-4 lg:h-12 xl:h-14"
+              src="./images/skills/trello.png"
+              alt="logo de trello"
+            />
+
+            <p class="font-lora text-xl md:text-2xl">Trello</p>
+            
+          </div>
+          <div
+            class="text-white flex justify-center items-center flex-col p-2 lg:mx-6"
+          >
+            <img
+              width="56"
+              height="56"
+              class="mb-4 lg:h-12 xl:h-14"
+              src="./images/skills/notion.png"
+              alt="logo de notion"
+            />
+
+            <p class="font-lora text-xl md:text-2xl">Notion</p>
+            
+          </div>
+        </div>
+      </section><!-- Fin Compétences -->
+
+      <!-- Experiences CV -->
+      <section
+        id="cv"
+        class="px-6 pt-10 pb-16 sm:pt-16 sm:pb-32 md:pt-24 md:pb-44"
+      >
+
+        <h1
+          class="text-main font-lora relative z-0 text-2xl w-fit mx-auto mb-7 sm:text-4xl sm:mb-10 md:text-5xl md:mb-12 after:absolute after:w-full after:h-2 after:bottom-0 after:left-0 after:-z-10 after:bg-red-light sm:after:h-5 sm:after:-bottom-2"
+        >
+          Formations & Expérience
+        </h1>
+        
+
+        <!-- Grid -->
+        <div
+          class="text-main mt-12 grid grid-cols-1 max-w-xl mx-auto md:mt-24 md:grid-cols-2"
+        >
+        <!-- Col 1 avec les gros chiffres -->
+        <div class="font-lora text-center md:text-left">
+
+          <div class="mb-10 md:mb-24">
+            <p class="text-lg mb-2 md:text-18sm md:mb-5 font-bold">
+              Bachelor CSI Développement Web 
+            </p>
+            <p class="text-xl md:max-w-[120px]">2025</p>
+            <p class="text-lg mb-2 md:text-18sm md:mb-5">
+              ESN81 – En cours (BAC+3) 
+            </p>
+          </div>
+
+          <div class="mb-10 md:mb-24">
+            <p class="text-lg mb-2 md:text-18sm md:mb-5 font-bold">
+              Concepteur Développeur d’Applications 
+            </p>
+            <p class="text-xl md:max-w-[120px]">2021</p>
+            <p class="text-lg mb-2 md:text-18sm md:mb-5">
+              LDNR – (BAC+4) 
+            </p>
+          </div>
+
+          <div class="mb-10 md:mb-24">
+            <p class="text-lg mb-2 md:text-18sm md:mb-5 font-bold">
+              Responsable en ingénierie des logiciels  
+            </p>
+            <p class="text-xl md:max-w-[120px]">2019</p>
+            <p class="text-lg mb-2 md:text-18sm md:mb-5">
+              CESI – (BAC+4-non obtenu) 
+            </p>
+          </div>
+
+          <div class="mb-10 md:mb-24">
+            <p class="text-lg mb-2 md:text-18sm md:mb-5 font-bold">
+              Analyste programmeur C/C++, JAVA  
+            </p>
+            <p class="text-xl md:max-w-[120px]">2016</p>
+            <p class="text-lg mb-2 md:text-18sm md:mb-5">
+              LDNR – (BAC+2) 
+            </p>
+          </div>
+
+        </div>
+
+        <!-- Col 2 le parcours -->
+        <div class="mt-10 text-center md:mt-0 md:text-left">
+
+          <div class="max-w-260 mx-auto mb-10 md:max-w-full md:mx-0">
+            <p class="font-lora text-xl mb-4">
+              Développeur Qt5
+            </p>
+            <p class="text-sm text-gray-dark">4Axes - St Jean - 2022</p>
+          </div>
+
+          <div class="max-w-260 mx-auto mb-10 md:max-w-full md:mx-0">
+            <p class="font-lora text-xl mb-4">
+              Stage développeur Salesforce,  support & assistance utilisateur
+            </p>
+            <p class="text-sm text-gray-dark">EBS Groupe - Castres - 2021</p>
+          </div>
+
+          <div class="max-w-260 mx-auto mb-10 md:max-w-full md:mx-0">
+            <p class="font-lora text-xl mb-4">
+              Technicien informatique et développeur VB.net
+            </p>
+            <p class="text-sm text-gray-dark">Cerfrance - Gaillac - 2017</p>
+          </div>
+
+          <div class="max-w-260 mx-auto mb-10 md:max-w-full md:mx-0">
+            <p class="font-lora text-xl mb-4">
+              Employé de fabrication 
+            </p>
+            <p class="text-sm text-gray-dark">Marty et Delonca - Pia - 2017</p>
+          </div>
+
+          <div class="max-w-260 mx-auto mb-10 md:max-w-full md:mx-0">
+            <p class="font-lora text-xl mb-4">
+              Stage développeur C# 
+            </p>
+            <p class="text-sm text-gray-dark">CGX - Castres - 2016</p>
+          </div>
+
+          <div class="max-w-260 mx-auto mb-10 md:max-w-full md:mx-0">
+            <p class="font-lora text-xl mb-4">
+              Employé polyvalent 
+            </p>
+            <p class="text-sm text-gray-dark">Besson chaussures - Castres - 2015</p>
+          </div>
+
+          <div class="max-w-260 mx-auto mb-10 md:max-w-full md:mx-0">
+            <p class="font-lora text-xl mb-4">
+              Intérimaire  
+            </p>
+            <p class="text-sm text-gray-dark">Adecco - Perpignan - 2015</p>
+          </div>
+
+          <div class="max-w-260 mx-auto mb-10 md:max-w-full md:mx-0">
+            <p class="font-lora text-xl mb-4">
+              Serveur polyvalent  
+            </p>
+            <p class="text-sm text-gray-dark">Indochine - Perpignan - 2014</p>
+          </div>
+
+          <div class="max-w-260 mx-auto mb-10 md:max-w-full md:mx-0">
+            <p class="font-lora text-xl mb-4">
+              Développeur web PHP, Javascript  
+            </p>
+            <p class="text-sm text-gray-dark">ALTERBIO - Perpignan - 2013</p>
+          </div>
+
+          <div class="max-w-260 mx-auto mb-10 md:max-w-full md:mx-0">
+            <p class="font-lora text-xl mb-4">
+              Stage développeur web PHP, Javascript  
+            </p>
+            <p class="text-sm text-gray-dark">ALTERBIO - Perpignan - 2013</p>
+          </div>
+
+          <p
+          class="italic font-lora text-center text-gray-dark text-sm mb-4 md:text-lg"
+          >
+          Découvrez-moi à partir de mon CV
+          </p>
+          
+          <a
+            href="./images/general/CV.pdf"
+            class="text-xs bg-black text-white flex max-w-260 mx-auto justify-center items-center py-4 px-6 sm:text-sm md:max-w-full md:text-base md:px-10"
+            download
+          >
+            Télécharger mon CV
+            <img
+              width="20"
+              height="18"
+              class="ml-4 h-2.5 duration-200 md:h-3"
+              src="./images/general/ArrowDownload.png"
+              alt=""
+            />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Projets -->
+    <section id="projets" class="py-20 px-4 bg-white text-center">
+      
+      <h1 class="text-3xl font-semibold">Mes projets</h1>
+
+      <p class="mt-4 text-gray-600 md:text-lg">
+        Symfony. 
+      </p>
+
+      <p class="mt-4 text-gray-600 md:text-lg">
+        React.
+      </p>
+
+      <p class="mt-4 text-gray-600 md:text-lg">
+        NodeJS
+      </p>
+
+      <p class="mt-4 text-gray-600 md:text-lg">
+        Java
+      </p>
+
+      <p class="mt-4 text-gray-600 md:text-lg">
+        C#
+      </p>
+
+    </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="py-20 px-4 bg-white text-center">
+        <h1 class="text-3xl font-semibold">Contactez-moi</h1>
+        <p class="mt-4 text-gray-600">Disponible à partir de Juin pour un stage de 13 semaines.</p>
+        <a href="mailto:guillaume@example.com" class="mt-6 inline-block bg-blue-600 text-white py-3 px-6 rounded-md hover:bg-blue-700">Envoyer un email</a>
+      </section>
+
+  </main>
+
+
+    <footer class="bg-gray-900 py-12 px-8 md:py-10 lg:py-8">
+
+      <div
+        class="max-w-4xl mx-auto flex items-center flex-col lg:flex-row lg:justify-between"
+      >
+
+        <p class="text-white underline">g.soulichanh@gmail.com</p>
+
+        <div class="flex my-4 lg:order-3">
+          <a href="https://github.com/gkiThor" target="_blank" class="p-2">
+            <img 
+            width="17"
+            height="17"
+            class="h-4"
+            src="./images/social-media/git.png" 
+            alt="Visiter la page Github de Guillaume Soulichanh">
+          </a>
+         
+          
+          <a href="https://www.linkedin.com/in/guillaume-soulichanh-874976142/" target="_blank" class="p-2">
+            <img 
+            width="17"
+            height="17"
+            class="h-4"
+            src="./images/social-media/linkedin.png" 
+            alt="Visiter la page Linkedin de Guillaume Soulichanh">
+          </a>
+        </div>
+
+        <a href="#" class="font-lora text-white text-base">
+          © Copyright Guillaume Soulichanh. Tous droit réservés.
+        </a>
+
+      </div>
+    </footer>
+
+  </body>
+</html>
